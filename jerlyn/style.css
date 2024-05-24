@@ -1,0 +1,357 @@
+body {
+    font-family: Georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/MSC.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left; /* Align text to the left */
+    color: white;
+}
+
+header {
+    background-color: hsla(3, 72%, 31%, 0.902);
+    color: #fff;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Align items horizontally */
+    font-size: 25px;
+    font-family: Georgia, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    flex-grow: 1; /* Allow the title to take up remaining space */
+}
+
+nav.header-nav {
+    padding: 0px;
+    text-align: right;
+    background-color: none;
+    font-size: 20px;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+}
+
+nav.header-nav a {
+    text-decoration: underline;
+    color: #fff; /* Use the same color as header text */
+    padding: 10px 20px; /* Adjust padding here */
+    margin-left: 50px;
+    font-size: 40px;
+    margin-right: 100px;
+    font-style: italic;
+}
+
+nav.header-nav a:hover {
+    color: hsla(3, 72%, 31%, 0.902);
+}
+
+nav.secondary-nav {
+    background-color: #fdff79e6; /* Yellow background */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav.secondary-nav a {
+    text-decoration: underline;
+    color: #fff; /* White text */
+    padding: 100px; /* Adjust padding here */
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+nav.secondary-nav a:hover {
+    background-color: hsl(0, 81%, 32%);
+    color: hwb(0 96% 0%);
+}
+
+nav.login-nav {
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+    padding: 20px 0px; /* Adjust padding here */
+    border-radius: 10px; /* Add rounded corners */
+    margin-left: 20px; /* Add margin between contact link and login */
+    margin-right: 100px;
+    text-align:center;
+}
+
+nav.login-nav a {
+    text-decoration: none;
+    color: #fff; /* White text */
+    font-size: 27px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left:50px;
+}
+
+nav.login-nav a:hover {
+    background-color: hsla(3, 72%, 31%, 0.902); /* Same as header background color */
+}
+
+
+footer {
+    text-align: center;
+    background-color: none;
+    color: #fff;
+    padding: 10px;
+    margin-top: 800px;
+}
+
+/*ABOUT US CSS*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+    color: black;
+}
+
+header {
+    background-color: hsla(3, 72%, 31%, 0.902);
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+header h1 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+nav.header-nav {
+    padding: 0px;
+    text-align: right;
+    background-color: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav.header-nav a {
+    text-decoration: underline;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 50px;
+    font-size: 40px;
+    margin-right: 100px;
+    font-style: italic;
+}
+
+nav.header-nav a:hover {
+    color: hsla(3, 72%, 31%, 0.902);
+}
+
+nav.secondary-nav {
+    background-color: #fdff79e6;
+    text-align: left;
+    padding: 10px 0;
+}
+
+nav.secondary-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    margin-left: 0px;
+    font-size: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav.secondary-nav a:hover {
+    background-color: hsl(0, 81%, 32%);
+    color: hwb(0 96% 0%);
+}
+
+nav.login-nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 0px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+nav.login-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+nav.login-nav a:hover {
+    background-color: hsla(3, 72%, 31%, 0.902);
+}
+
+.AboutUs {
+    color: black;
+    padding: 10px;
+    font-size: 100px;
+    text-align: center;
+    margin: 40px;
+    font-style: italic;
+}
+
+.aboutus-text {
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    margin: 20px;
+    font-size: 40px;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    background-color: none;
+    color: black;
+    padding: 10px;
+    margin-top: 300px;
+}
+
+/*login us css*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/MSCBG.png');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header {
+    background-color: hsla(3, 72%, 31%, 0.902);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+}
+
+nav {
+    background-color: #fdff79e6;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(180, 11%, 2%);
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: hsl(0, 81%, 32%);
+    color: hwb(0 96% 0%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.login-container {
+    background-image: url('../images/logomsc.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(142, 22, 22, 0.831);
+    width: 650px;
+    height: 650px;
+    margin-top: 30px;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust transparency as needed */
+    padding: 20px;
+    border-radius: 8px; 
+    width: 600px;
+    height: 600px;
+    font-size: 30px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 30px;
+    width: 92%;
+}
+
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus {
+    outline: navajowhite;
+    border-bottom-color: #992121; 
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: hwb(221 23% 17%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 30px;
+    font-style: century Gothic, sans-serif;
+}
+
+.login-form button:hover {
+    background-color: hsl(0, 71%, 30%);
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-login img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
